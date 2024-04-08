@@ -4,7 +4,7 @@
 
 Find your kernel source tree, and edit `src/Makefile`. Locate the following line:
     
-    KERNEL_PATH = /usr/src/linux-headers-4.4.0-72-generic`
+    KERNEL_PATH = /usr/src/linux-headers-*.*.*-**-generic`
     
 Modify this line so that it points to the correct source tree.
 After that, run `make` to create `fl2000.ko` and run `insmod fl2000.ko` to load the driver.
